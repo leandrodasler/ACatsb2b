@@ -1,6 +1,6 @@
-[![Publish, Deploy and Install App](https://github.com/leandrodasler/vtextitantools/actions/workflows/publish-deploy-and-install.yml/badge.svg)](https://github.com/leandrodasler/vtextitantools/actions/workflows/publish-deploy-and-install.yml)
+[![Publish, Deploy and Install App](https://github.com/tiago-freire/vtextitantools-fashionb2b/actions/workflows/publish-deploy-and-install.yml/badge.svg)](https://github.com/tiago-freire/vtextitantools-fashionb2b/actions/workflows/publish-deploy-and-install.yml)
 
-# Based on Titan Tools Store Theme
+# Titan Tools Store Theme
 
 ![Titan Tools Store Theme](https://vtextitantools.vtexassets.com/arquivos/orange-titantools-logo.svg)
 
@@ -8,23 +8,32 @@
 
 # Installing the Titan Tools Store Theme
 
-- Log in to the desired VTEX account
-- Clone this repository, enter its directory in the terminal and run the [installation script for all necessary apps](../install-list.sh):
+## Prerequisites
 
-  ```bash
-  ./install-list.sh
-  # or
-  bash ./install-list.sh
-  # or
-  sh ./install-list.sh
-  # or, if your operating system does not run shell
-  # scripts, run the "vtex install ..." command
-  # contained in the install-list.sh file 
-  ```
+### Set up your development environment
 
-  - Some apps must be installed via [App Store](https://apps.vtex.com). In these cases, a browser window will open for installation.
+Before starting with the **Titan Tools Store Theme** setup itself, you must:
 
-- After install required apps by [install-list.sh](../install-list.sh) shell script, you are ready to use **Titan Tools Store Theme**, avaiable at https://{{account}}.myvtex.com.
+1. [Set up a workspace to develop in VTEX IO](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-basicsetuptodevelopinvtexio) on your machine.
+2. Follow [these instructions](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-prerequesites) to make sure you meet all the prerequisites to develop using Store Framework.
+3. Make sure your store’s catalog is integrated with VTEX Intelligent Search, as described in [this article](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/6wKQgKmu2FT6084BJT7z5V).
+
+
+### Install required B2B apps
+Clone this repository, enter its directory in terminal and run:
+```bash
+bash ./install-list.sh 
+```
+
+Some applications must be installed via [App Store](https://apps.vtex.com). In these cases, a browser window will open for installation.
+
+## How to use
+
+After following the steps above, you are ready to use **Titan Tools Store Theme**. You must:
+
+1. Replace `vendor` on `manifest.json` for your account name
+2. Run the `vtex link` command on the CLI.
+3. Run the `vtex browse` command to see the store using Titan Tools Store Theme on your browser.
 
 ## Customization
 

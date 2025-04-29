@@ -1,8 +1,8 @@
 {
   "vendor": "alpargadasb2bbr",
-  "name": "b2bstore",
-  "version": "7.0.4",
-  "defaultLocale": "en-US",
+  "name": "acatsb2b",
+  "version": "0.0.7",
+  "defaultLocale": "pt-BR",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -85,12 +85,6 @@
     "ssesandbox04.progressive-discount-table": "2.x",
     "ssesandbox04.demo-warning": "0.x",
     "ssesandbox04.reviews-and-ratings-extensions": "2.x"
-  },
-  "billingOptions": {
-    "type": "free",
-    "availableCountries": [
-      "*"
-    ]
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

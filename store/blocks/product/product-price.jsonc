@@ -13,7 +13,7 @@
   },
   "sku-taxes": {
     "props": {
-      "prefix": "Taxes: "
+      "prefix": "Impostos: "
     }
   },
   "flex-layout.col#product-price": {
@@ -91,7 +91,7 @@
   "rich-text#discount": {
     "props": {
       "blockClass": "discount",
-      "text": "Transfer/FedNow<br>(3% discount)"
+      "text": "PIX<br>(3% de desconto)"
     }
   },
   "product-installments": {
