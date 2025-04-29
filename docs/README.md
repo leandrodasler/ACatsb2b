@@ -1,6 +1,6 @@
 [![Publish, Deploy and Install App](https://github.com/leandrodasler/vtextitantools/actions/workflows/publish-deploy-and-install.yml/badge.svg)](https://github.com/leandrodasler/vtextitantools/actions/workflows/publish-deploy-and-install.yml)
 
-# Titan Tools Store Theme
+# Based on Titan Tools Store Theme
 
 ![Titan Tools Store Theme](https://vtextitantools.vtexassets.com/arquivos/orange-titantools-logo.svg)
 
